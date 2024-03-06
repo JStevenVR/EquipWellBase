@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body.proyecto {
+    width: 100%;
+    margin: 0 auto;
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.banner {
+    background: linear-gradient(to right, #030303, #2490b4);
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+header {
+    background: linear-gradient(to right, #030303, #2490b4); 
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0; 
+    width: 100%;
+    
+}
+
+.logo {
+    max-width: 150px; 
+    
+}
+
+nav {
+    background-color: #333;
+    text-align: center; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; 
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+
+main {
+    padding: 20px;
+    height: 400px; 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+footer {
+    background: linear-gradient(to right, #0a0a0a,  #2490b4); 
+    color: white;
+    text-align: center;
+    padding: 8px; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 0px;
+    }
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+select {
+    height: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    bottom: 0;
+    width: 100%;
+}
+footer.contacto {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    bottom: 0;
+    position: flex;
+    width: 100%;
+}
+
+body.equipos {
+    background-image: url('fondo2.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    overflow-x: hidden;
+}
+
+body.contacto {
+    background-image: url('fondo2.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    overflow-x: hidden;
+}
+
+body.mantenimiento {
+    background-image: url('fondo2.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    overflow-x: hidden;
+}
+
+body.reportes {
+    background-image: url('fondo2.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    overflow-x: hidden;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}

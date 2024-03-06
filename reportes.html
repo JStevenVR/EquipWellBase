@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Generar Reporte - Gestión de Equipos Biomédicos</title>
+</head>
+<body class="reportes">
+
+<div class="container">
+    <header class="banner">
+        <img src="logo.png" alt="Logo de la empresa" class="logo">
+        <h1>EquipWell Manager</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="equipos.html">Equipos</a></li>
+            <li><a href="mantenimiento.html">Mantenimiento</a></li>
+            <li><a href="reportes.html">Reportes</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section class="formulario">
+        <h2>Generar Reporte</h2>
+        <form>
+            <div class="form-group">
+                <label for="equipo-reportado">Equipo Reportado:</label>
+                <input type="text" id="equipo-reportado" name="equipo-reportado" required>
+            </div>
+
+            <div class="form-group">
+                <label for="fecha-reporte">Fecha del Reporte:</label>
+                <input type="date" id="fecha-reporte" name="fecha-reporte" required>
+            </div>
+
+            <div class="form-group">
+                <label for="descripcion-incidente">Descripción del Incidente:</label>
+                <textarea id="descripcion-incidente" name="descripcion-incidente" rows="4" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Generar Reporte">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; EquipWell Manager - SENA 2023 - Jose Vergara - Johan Gomez</p>
+    </footer>
+</div>
+
+</body>
+</html>
